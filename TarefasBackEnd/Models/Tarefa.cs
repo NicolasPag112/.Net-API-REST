@@ -6,7 +6,7 @@ namespace TarefasBackEnd.Models
     {
         public Guid Id  { get; set; }
         public Guid UsuarioId { get; set; }
-        public string Nome  { get; set; }
-        public bool Concluida { get; set; }
+        public required string Nome  { get; set; }
+        public bool Concluida { get; set; } = false;
     }
 }
