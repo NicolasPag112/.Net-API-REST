@@ -7,6 +7,8 @@ namespace TarefasBackEnd.Controllers
     [Route("tarefa")]
     public class TarefaController : ControllerBase
     {
-        
+        public IActionResult Get() {
+            return Ok();
+        }
     }
 }
