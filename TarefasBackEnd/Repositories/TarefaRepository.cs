@@ -23,6 +23,7 @@ namespace TarefasBackEnd.Repositories
         }
         public void Create(Tarefa tarefa)
         {
+            tarefa.Id = Guid.NewGuid();
             _context.Tarefas.Add(tarefa);
             _context.SaveChanges();
         }
