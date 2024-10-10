@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TarefasBackEnd", "TarefasBackEnd\TarefasBackEnd.csproj", "{413D41C8-F641-4C3C-AF52-D750C3577C08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413D41C8-F641-4C3C-AF52-D750C3577C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413D41C8-F641-4C3C-AF52-D750C3577C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413D41C8-F641-4C3C-AF52-D750C3577C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413D41C8-F641-4C3C-AF52-D750C3577C08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6D29695-B6D7-4A0D-94CF-70FA3606C3D0}
+	EndGlobalSection
+EndGlobal
