@@ -10,7 +10,7 @@ namespace TarefasBackEnd.Repositories
 
         void Create(Tarefa tarefa);
         void Delete(Guid id);
-        void Update(Tarefa tarefa);
+        void Update(Guid id, Tarefa tarefa);
     }
 
     public class TarefaRepository : ITarefaRepository
@@ -40,13 +40,16 @@ namespace TarefasBackEnd.Repositories
             return _context.Tarefas.ToList();
         }
 
-        public void Update(Tarefa tarefa)
+        public void Update(Guid id, Tarefa tarefa)
         {
-            var _tarefa = _context.Tarefas.Find(tarefa.Id);
+            var _tarefa = _context.Tarefas.Find(id);
 
-            _tarefa.Nome = tarefa.Nome;
+            if(tarefa.Nome != null)
+            {
+                _tarefa.Nome = tarefa.Nome;
+            }
             _tarefa.Concluida = tarefa.Concluida;
-
+            
             _context.Entry(_tarefa).State = EntityState.Modified;
             _context.SaveChanges();
         }
