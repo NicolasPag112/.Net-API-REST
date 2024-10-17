@@ -26,9 +26,11 @@ namespace TarefasBackEnd.Repositories
 
         public Usuario Read(string email, string senha)
         {
+#pragma warning disable CS8603 // Possible null reference return.
             return _context.Usuarios.SingleOrDefault(
                 u => u.Email == email && u.Senha == senha
             );
+#pragma warning restore CS8603 // Possible null reference return.
         }
     }
 }
