@@ -8,7 +8,9 @@ builder.Services.AddDbContext<DataContext>(options =>options.UseInMemoryDatabase
 builder.Services.AddTransient<ITarefaRepository, TarefaRepository>();
 builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 
+
 var app = builder.Build();
+
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
