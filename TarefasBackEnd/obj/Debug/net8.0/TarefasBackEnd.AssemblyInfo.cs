@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TarefasBackEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26af13f7b6f40381cd2424892dad442ad2dc813b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80e7d744df155316b09afb74cbed4faec103b11c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TarefasBackEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TarefasBackEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
