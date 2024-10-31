@@ -29,3 +29,9 @@ C:\Users\nicol\Documents\Udemy\.Net\TarefasBackEnd\obj\Debug\net8.0\refint\Taref
 C:\Users\nicol\Documents\Udemy\.Net\TarefasBackEnd\obj\Debug\net8.0\TarefasBackEnd.pdb
 C:\Users\nicol\Documents\Udemy\.Net\TarefasBackEnd\obj\Debug\net8.0\TarefasBackEnd.genruntimeconfig.cache
 C:\Users\nicol\Documents\Udemy\.Net\TarefasBackEnd\obj\Debug\net8.0\ref\TarefasBackEnd.dll
+C:\Users\nicol\Documents\Udemy\.Net\TarefasBackEnd\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\nicol\Documents\Udemy\.Net\TarefasBackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\nicol\Documents\Udemy\.Net\TarefasBackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nicol\Documents\Udemy\.Net\TarefasBackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nicol\Documents\Udemy\.Net\TarefasBackEnd\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nicol\Documents\Udemy\.Net\TarefasBackEnd\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

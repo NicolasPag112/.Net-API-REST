@@ -50,6 +50,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "System.IdentityModel.Tokens.JWT": {
+              "target": "Package",
+              "version": "[8.1.2, )"
             }
           },
           "imports": [
